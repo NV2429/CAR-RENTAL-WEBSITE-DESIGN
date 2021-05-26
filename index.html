@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhl's Car Rental System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+  </head>
+<body>
+    <section class="header" id= "header">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">ro-cars</a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#active" class="active">Cars</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#Service">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login & Register</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="row">
+          <div class="left-sec">
+            <div class="content">
+              <h2><span>rent-o</span><br>cars</h2>
+              <p>The origins of the company are complex, going back to the early 20th century and the initial enterprises (Horch and the Audiwerke) founded by engineer August Horch; and two other manufacturers (DKW and Wanderer), leading to the foundation of Auto Union in 1932.</p>
+            </div>
+            <button class="Discover-btn">
+              <a href="#">Discover</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+            </button>
+            <div class="information">
+            <div class="production">
+              <p>Production</p>
+              <h2>1932-2021</h2>
+            </div>
+            <div class="production">
+              <p>Desinger</p>
+              <h2>Nikhil Vishwanala</h2>
+
+            </div>
+            </div>
+            </div>
+            <div class="right-sec">
+              <div class="my-car">
+                <div><img src="img/2.png"></div>
+                <div><img src="img/1.png"></div>
+                <div><img src="img/5.png"></div>
+                <div><img src="img/4.png"></div>
+                <div><img src="img/7.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+  });
+
+  $(".my-car").slick({
+    autoplay: true,
+	  speed:1000,
+    dots: true,
+    customPaging : function(slider, i) {
+    var thumb = $(slider.$slides[i]).data();
+    return '<a>'+(i+1)+'</a>';
+  },
+
+});
+</script>
+
+<div class="main" id="Service">
+  <h2>Our Services</h2>
+<div class="servie-content">
+<div class="box">
+  <div class="icon">01</div>
+  <div class="cont">
+    <h3>Service 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+    <a class="read" href="#">Read More</a>
+  </div>
+
+</div>
+
+<div class="box">
+  <div class="icon">02</div>
+  <div class="cont">
+    <h3>Service 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+    <a class="read"href="#">Read More</a>
+  </div>
+
+</div>
+<div class="box">
+  <div class="icon">03</div>
+  <div class="cont">
+    <h3>Service 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+    <a class="read" href="#">Read More</a>
+  </div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="about-section" id="about">
+  <div class="inner-container">
+    <h1>About Us</h1>
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <div class="last">
+      <span>Less time more Work</span>
+      <span>Production 1932</span>
+      <span>Availavle(24/>7)</span>
+
+    </div>
+
+
+
+
+  </div>
+
+</div>
+ <section class="contact0" id="contact">
+   <div class="content0">
+     <h2>Contact Us</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+   </div>
+   <div class="container0">
+     <div class="contactinfo">
+       <div class="box0">
+         <div class="icon0"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+           <div class="text0">
+             <h3>Address</h3>
+             <p>Marol Takpada Makwana Rd,<br>Andheri East,<br>Mumbai-59</p>
+
+           </div>
+
+       </div>
+       <div class="box0">
+         <div class="icon0"><i class="fa fa-phone" aria-hidden="true"></i></div>
+           <div class="text0">
+             <h3>Phone</h3>
+             <p>+91 8286866436</p>
+
+           </div>
+
+       </div>
+       <div class="box0">
+         <div class="icon0"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+           <div class="text0">
+             <h3>Email</h3>
+             <p>nikhilvishwanala245@gamil.com</p>
+
+           </div>
+
+       </div>
+
+     </div>
+
+     <div class="contactform">
+       <form>
+         <h2>send message</h2>
+         <div class="inputbox">
+           <input type="text" name="" required>
+           <span>Full Name</span>
+
+         </div>
+         <div class="inputbox">
+           <input type="text" name="" required>
+           <span>Email</span>
+
+         </div>
+         <div class="inputbox">
+           <textarea required ></textarea>
+           <span>Type Your Message....</span>
+
+         </div>
+         <div class="inputbox">
+           <input type="submit" name="" value="send">
+
+
+         </div>
+
+       </form>
+
+     </div>
+
+
+
+   </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="foot">
+  <div class="footer-content">
+    <h3>About Us:</h3>
+    <p>Local & Outstation Car Rental Across India </p>
+    <ul class="socials">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+      <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </div>
+  <div class="fotter-bottom">
+    <p>copyright &copy;2021 car rental website. desinged by <span>NikhilV</span></p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
